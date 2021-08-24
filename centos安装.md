@@ -54,3 +54,5 @@
 
 `yum remove docker-ce docker-ce-cli containerd.io`          `rm -rf /var/lib/docker`          `rm -rf /var/lib/containerd`
 
+#### curl
+
