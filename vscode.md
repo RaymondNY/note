@@ -4,5 +4,5 @@
 
 #### 免密登录
 
-本地要有id_rsa.pub文件，然后把内容追加到  /root/.ssh/authorzied_keys文件中，如果没有这个文件就自己创建
+本地要有id_rsa.pub文件，然后把内容追加到(Linux系统中)  /root/.ssh/authorzied_keys文件中，如果没有这个文件就自己创建
 

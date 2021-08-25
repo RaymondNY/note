@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "10b2b7bcd1fc9a45",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d087a81ce56a597",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "centos安装.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cadae80b897a2431",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8b47414bcf426d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a976c1e3f06bf510",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a9be6d522c6a5c75",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f9f6210de5e629c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "62a5876058642929",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49fe1e095d546cb3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "centos安装.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6d087a81ce56a597",
+  "lastOpenFiles": [
+    "centos安装.md",
+    "docker.md",
+    "git.md",
+    "shell.md",
+    "vscode.md",
+    "go.md"
+  ]
+}

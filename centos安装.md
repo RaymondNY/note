@@ -54,5 +54,54 @@
 
 `yum remove docker-ce docker-ce-cli containerd.io`          `rm -rf /var/lib/docker`          `rm -rf /var/lib/containerd`
 
-#### curl
+#### 常用命令
 
+##### scp
+
+`scp xxx.file  username@host:/xx/xx`
+
+##### curl
+
+
+
+#### 自启动服务
+
+先创建xxx.service文件，简单的内容如下：
+
+`[Unit]`
+`Description=mmmm`
+
+`[Service]`
+`Type = simple`
+`ExecStart = /home/zqx/project/dockertest/all.sh`
+
+`[Install]`
+`WantedBy = multi-user.target`
+
+xxx.service 复制到/etc/systemd/system目录下或者/usr/lib/systemd/目录下 。然后执行`systemctl enable xxx`就可以
+
+常用的命令：(nginx就代表文件名xxx)
+
+systemctl enable nginx # 开机启动 
+
+systemctl is-enabled nginx # 查看服务是否开机启动 
+
+systemctl disable nginx  # 关闭开机启动 
+
+systemctl start nginx  # 启动服务 
+
+systemctl stop nginx # 停止服务 
+
+systemctl restart nginx # 重启服务 
+
+systemctl status nginx # 查看服务状态(详细信息) 
+
+systemctl is-active nginx # 查看服务是否活动 
+
+systemctl kill nginx # 结束服务进程(服务无法停止时) 
+
+systemctl daemon-reload # 添加或修改配置文件后，使改动生效 
+
+systemctl --failed # 查看启动失败的服务
+
+https://page.syao.fun/2020/09/11/linux_systemd.html    配置service文件字段解释

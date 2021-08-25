@@ -38,7 +38,7 @@ export N_PREFIX=/usr/local #node实际安装位置
 export PATH=$N_PREFIX/bin:$PATH
 ```
 
-查看npm默认参数
+#### 查看npm默认参数
 
 `npm config ls -l`
 
