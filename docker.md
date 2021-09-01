@@ -6,7 +6,7 @@ https://www.cnblogs.com/kevingrace/category/839227.html?page=3
 
 ##### docker command
 
-`docker run --name myredis -p 6379:6379 -d redis --requirepass "mypassword"`
+`docker run --name redis -p 6379:6379 -d redis --requirepass "123456"`
 
 ##### docker-compose 
 

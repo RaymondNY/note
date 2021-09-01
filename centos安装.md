@@ -64,6 +64,16 @@
 
 
 
+##### wc -l
+
+`wc -l  xxx.file `  统计行数
+
+#####  pgrep
+
+`pgrep -f abc`   匹配出含abc的进程 并输出进程的pid
+
+ `pgrep -f redis |wc -l`   查看redis启动成功
+
 #### 自启动服务
 
 先创建xxx.service文件，简单的内容如下：
