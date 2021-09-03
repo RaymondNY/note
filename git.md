@@ -5,3 +5,4 @@
 #### 代理
 
 `git config --global http.proxy 127.0.0.1:1080`为全局的 git 项目都设置代理
+

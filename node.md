@@ -45,4 +45,10 @@ export PATH=$N_PREFIX/bin:$PATH
 #### npm和yarn命令
 
 https://www.cnblogs.com/cjh1996/p/12688383.html#scroller-2
+=======
+#### 查看项目中是否安装某个组件
+
+` npm ls packname`
+
+`npm ls -g`  查看全局的组件
 
