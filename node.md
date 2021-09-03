@@ -42,3 +42,7 @@ export PATH=$N_PREFIX/bin:$PATH
 
 `npm config ls -l`
 
+#### npm和yarn命令
+
+https://www.cnblogs.com/cjh1996/p/12688383.html#scroller-2
+
