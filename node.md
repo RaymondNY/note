@@ -42,3 +42,9 @@ export PATH=$N_PREFIX/bin:$PATH
 
 `npm config ls -l`
 
+#### 查看项目中是否安装某个组件
+
+` npm ls packname`
+
+`npm ls -g`  查看全局的组件
+
