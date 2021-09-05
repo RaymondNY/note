@@ -115,3 +115,10 @@ systemctl daemon-reload # 添加或修改配置文件后，使改动生效
 systemctl --failed # 查看启动失败的服务
 
 https://page.syao.fun/2020/09/11/linux_systemd.html    配置service文件字段解释
+
+#### 关闭防火墙
+
+`systemctl stop firewalld.service`
+
+`systemctl disable firewalld.service`
+

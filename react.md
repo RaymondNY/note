@@ -10,6 +10,11 @@
 
 #### vscode  eslint prettier
 
-https://blog.csdn.net/weixin_42445810/article/details/113581402
+https://blog.csdn.net/weixin_39926042/article/details/111096944
 
-https://zhuanlan.zhihu.com/p/159426292
+https://blog.csdn.net/u010007013/article/details/108386273
+
+#### eslint html配置  
+
+https://www.cnblogs.com/sxdjy/p/12981964.html
+
