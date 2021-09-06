@@ -23,3 +23,13 @@ services:
 
 https://jueee.github.io/2021/03/2021-03-14-Docker%E5%90%AF%E5%8A%A8Redis%E5%B9%B6%E6%B7%BB%E5%8A%A0%E5%AF%86%E7%A0%81/
 
+
+
+#### mysql安装
+
+`docker run --name mysql -p 3306:3306  -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5.7.35`
+
+更多的参数见下面官方docker库介绍
+
+https://github.com/docker-library/docs/tree/master/mysql
+
