@@ -122,3 +122,12 @@ https://page.syao.fun/2020/09/11/linux_systemd.html    配置service文件字段
 
 `systemctl disable firewalld.service`
 
+
+
+#### ubuntu
+
+##### 免密
+
+修改/etc/sudoers 加上下面一行
+
+`%sudo   ALL=(ALL:ALL) NOPASSWD:ALL`
