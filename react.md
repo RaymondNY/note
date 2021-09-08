@@ -18,3 +18,9 @@ https://blog.csdn.net/u010007013/article/details/108386273
 
 https://www.cnblogs.com/sxdjy/p/12981964.html
 
+#### Hook
+
+hook是React16.8的新特性，可以在不写class的情况下使用state以及其他react特性，比如context state
+
+hook的使用 https://juejin.cn/post/6924506511511126029#heading-4
+
