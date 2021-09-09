@@ -6,3 +6,6 @@
 
 `git config --global http.proxy 127.0.0.1:1080`为全局的 git 项目都设置代理
 
+#### 跨平台拉取代码问题
+
+https://blog.csdn.net/ljheee/article/details/82946368

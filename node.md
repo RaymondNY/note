@@ -42,10 +42,10 @@ export PATH=$N_PREFIX/bin:$PATH
 
 `npm config ls -l`
 
-#### npm和yarn命令
+#### 修改npm和yarn镜像和命令
 
-https://www.cnblogs.com/cjh1996/p/12688383.html#scroller-2
-=======
+https://www.cnblogs.com/cjh1996/p/12688383.html#scroller-2   
+
 #### 查看项目中是否安装某个组件
 
 ` npm ls packname`
