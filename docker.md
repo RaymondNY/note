@@ -10,7 +10,7 @@ https://www.kancloud.cn/woshigrey/docker/935883
 
 ##### docker command
 
-`docker run --name redis -p 6379:6379 -d redis --requirepass "123456"`
+`docker run --name redis --restart always -p 6379:6379 -d redis --requirepass "Xad@8031009"`
 
 ##### docker-compose 
 
@@ -20,6 +20,7 @@ services:
     image: 'redis'
     restart: always
     ports:
+
       - 6379:6379
         command: redis-server --requirepass mypassword
 
