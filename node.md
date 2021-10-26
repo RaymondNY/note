@@ -1,4 +1,4 @@
-#### 安装方式-----命令安装
+#### linux安装方式-----命令安装
 
 centos下,确认系统是否安装过epel-release包
 
@@ -37,6 +37,10 @@ which node
 export N_PREFIX=/usr/local #node实际安装位置
 export PATH=$N_PREFIX/bin:$PATH
 ```
+
+#### win安装
+
+https://www.cnblogs.com/zwjphp/p/14123746.html
 
 #### 查看npm默认参数
 
