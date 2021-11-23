@@ -25,16 +25,7 @@ login.vue包含了3个登录相关的页面组件login-panel,login-account,login
 - 请求后台登录accountLoginRequest，成功返回token，本地缓存一份token，store里存一份token
 - 请求以后使用的下拉框数据，entireDepartment，entireRole，entireMenu
 - 请求用户信息userInfo
-- 根据role的id请求菜单信息userMenus     ？？？？？？？？？？？？？
+- 根据role的id请求要展示的菜单信息userMenus ，然后在changeUserMenus中注册动态路由，获取按钮权限
 - 跳转到首页main
-
-
-
-
-
-
-
-
-
 
 
